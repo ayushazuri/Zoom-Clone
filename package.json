@@ -1,0 +1,19 @@
+{
+	"name": "zoom-clone",
+	"version": "1.0.0",
+	"description": "Clone of Zoom, with various various features of zoom, like, a room, mute/unmute, show/hide video, chat with one another, etc",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.6",
+		"express": "^4.17.1",
+		"peer": "^0.6.1",
+		"socket.io": "^4.0.1",
+		"uuid": "^8.3.2"
+	}
+}
